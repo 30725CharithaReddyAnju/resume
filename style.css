@@ -1,0 +1,125 @@
+.main{
+  width:100%;
+  background-color: #999;
+  /* flex box syntax */
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  width: 30%;
+  background-color: #c45e45;
+ border: 5px 4px 5px 4px #fff;
+ margin: 5px;
+ padding: 6px;
+}
+.right{
+  width: 70%;
+  background-color: #666;
+  border: 5px 4px 5px 4px #fff;
+  margin: 5px;
+}
+#name{
+  color:green;
+}
+.left img{
+  border-radius: 50px;
+  border: :5px solid #c454;
+}
+/* media quries (1024,1280,768,480)
+1280-1024:Destop
+1024-768:Tablet(landscape)
+768-480:Tablet
+480:moblie landscape(or)smaller device
+*/
+/* @media screen and (min-width:425px){ }  */
+@media only screen and (min-width:1024px) and (max-width:1280px) {
+  .main{
+    width:100%;
+    background-color: pink;
+    /* flex box syntax */
+    display: flex;
+    flex-direction: row;
+  }
+  .left{
+    width: 30%;
+    background-color: green;
+   border: 5px 4px 5px 4px #ffff;
+   margin: 5px;
+   padding: 6px;
+  }
+  .right{
+    width: 70%;
+    background-color: pink;
+    border: 5px 4px 5px 4px #000;
+    margin: 5px;
+  }
+  #name{
+    color:green;
+  }
+  .left img{
+    border-radius: 50px;
+    border: :5px solid #c454;
+  }
+
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .main{
+    width:100%;
+    background-color: #000;
+    /* flex box syntax */
+    display: flex;
+    flex-direction: row;
+  }
+  .left{
+    width: 30%;
+    background-color: #c454;
+   border: 5px 4px 5px 4px #999;
+   margin: 5px;
+   padding: 6px;
+  }
+  .right{
+    width: 70%;
+    background-color: #999;
+    border: 5px 4px 5px 4px #c454;
+    margin: 5px;
+  }
+  #name{
+    color:green;
+  }
+  .left img{
+    border-radius: 50px;
+    border: :5px solid #c454;
+  }
+
+}
+
+@media only screen and (max-width:480px) {
+  .main{
+    width:100%;
+    background-color: #000;
+    /* flex box syntax */
+    display: flex;
+    flex-direction: row;
+  }
+  .left{
+    width: 30%;
+    background-color: #c45e45;
+   border: 5px 4px 5px 4px #fff;
+   margin: 5px;
+   padding: 6px;
+  }
+  .right{
+    width: 70%;
+    background-color: #999;
+    border: 5px 4px 5px 4px #000;
+    margin: 5px;
+  }
+  #name{
+    color:green;
+  }
+  .left img{
+    border-radius: 50px;
+    border: :5px solid #c454;
+  }
+
+}
