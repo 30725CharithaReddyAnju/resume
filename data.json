@@ -2,9 +2,46 @@
 "left":{
    "photo":"b.png",
    "name":"M.charitha",
-   "email":"charithareddy.mandla@gmail.com",
+   "email":"charithareddy@gmail.com",
    "phone":"7702002463"
 
+},
+"education":[
+  {
+    "course":"B.Tech(C.S.E)",
+    "college":["Ravindra engineering college for women",
+    "2015-2019",
+    "70%"
+  ]
+},
+{
+  "course":"Intermediate(M.P.C)",
+  "college":["narayana junior college",
+  "2013-2015",
+  "80%"
+]
+},
+{
+  "course":"SSC",
+  "college":["Ravindra school",
+  "2012-2013",
+  "70%"
+]
 }
+],
 
+"skills":[
+  {
+    "name":"operating system",
+    "value":"windows,linux"
+  },
+  {
+  "name":"promming languages",
+  "value":"c,c++,java"
+},
+{
+  "name":"web development",
+  "value":"html,php,.net"
+}
+]
 }
